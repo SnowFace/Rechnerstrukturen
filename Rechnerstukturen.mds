@@ -1,0 +1,16 @@
+<Combine fileversion="2.0">
+  <Configurations active="Debug|x86">
+    <Configuration name="Debug|x86" ctype="CombineConfiguration">
+      <Entry build="True" name="Rechnerstukturen" configuration="Debug|x86" />
+    </Configuration>
+    <Configuration name="Release|x86" ctype="CombineConfiguration">
+      <Entry build="True" name="Rechnerstukturen" configuration="Release|x86" />
+    </Configuration>
+  </Configurations>
+  <StartMode startupentry="Rechnerstukturen" single="True">
+    <Execute type="None" entry="Rechnerstukturen" />
+  </StartMode>
+  <Entries>
+    <Entry filename="Rechnerstukturen.mdp" />
+  </Entries>
+</Combine>

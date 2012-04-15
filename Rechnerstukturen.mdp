@@ -1,0 +1,55 @@
+<Project name="Rechnerstukturen" fileversion="2.0" DefaultNamespace="Rechnerstukturen" language="C#" Configuration="Debug" Platform="x86" AssemblyName="Rechnerstukturen" TargetFrameworkVersion="v3.5" targetFramework="3.5" ctype="DotNetProject">
+  <Configurations active="Debug|x86">
+    <Configuration name="Debug|x86" Optimize="false" DefineConstants="DEBUG;" WarningLevel="4" PlatformTarget="x86" ctype="DotNetProjectConfiguration">
+      <Output directory="bin/Debug" assembly="Rechnerstukturen" />
+      <Build debugmode="True" target="WinExe" />
+      <Execution consolepause="False" runwithwarnings="True" runtime="MsNet" />
+      <CodeGeneration compiler="Mcs" warninglevel="4" optimize="False" unsafecodeallowed="False" generateoverflowchecks="False" definesymbols="DEBUG;" generatexmldocumentation="False" ctype="CSharpCompilerParameters" />
+    </Configuration>
+    <Configuration name="Release|x86" Optimize="false" WarningLevel="4" PlatformTarget="x86" ctype="DotNetProjectConfiguration">
+      <Output directory="bin/Release" assembly="Rechnerstukturen" />
+      <Build debugmode="False" target="WinExe" />
+      <Execution consolepause="False" runwithwarnings="True" runtime="MsNet" />
+      <CodeGeneration compiler="Mcs" warninglevel="4" optimize="False" unsafecodeallowed="False" generateoverflowchecks="False" generatexmldocumentation="False" ctype="CSharpCompilerParameters" />
+    </Configuration>
+  </Configurations>
+  <Contents>
+    <File subtype="Code" buildaction="EmbedAsResource" name="gtk-gui/gui.stetic" />
+    <File subtype="Code" buildaction="Compile" name="gtk-gui/generated.cs" />
+    <File subtype="Code" buildaction="Compile" name="Main.cs" />
+    <File subtype="Code" buildaction="Compile" name="AssemblyInfo.cs" />
+    <File subtype="Code" buildaction="Compile" name="gtk-gui/GUI.cs" />
+    <File subtype="Code" buildaction="Compile" name="Zahlensystemparser/Binaer.cs" />
+    <File subtype="Code" buildaction="Compile" name="Zahlensystemparser/Dezimal.cs" />
+    <File subtype="Code" buildaction="Compile" name="Zahlensystemparser/Hexadezimal.cs" />
+    <File subtype="Code" buildaction="Compile" name="Zahlensystemparser/ZDinterface.cs" />
+    <File subtype="Code" buildaction="Compile" name="Binaerdarstellungen/Betragszahl.cs" />
+    <File subtype="Code" buildaction="Compile" name="Binaerdarstellungen/Festkomma.cs" />
+    <File subtype="Code" buildaction="Compile" name="Binaerdarstellungen/EinerKomp.cs" />
+    <File subtype="Code" buildaction="Compile" name="Binaerdarstellungen/Vorzeichenbetrag.cs" />
+    <File subtype="Code" buildaction="Compile" name="Binaerdarstellungen/ZweierKomp.cs" />
+    <File subtype="Code" buildaction="Compile" name="Binaerdarstellungen/Exzessdarstellung.cs" />
+    <File subtype="Code" buildaction="Compile" name="GUI-Schnistellen/Ausgabe.cs" />
+    <File subtype="Code" buildaction="Compile" name="Berechnungen/Dualoperationen.cs" />
+    <File subtype="Code" buildaction="Compile" name="GUI-Schnistellen/GUI.cs" />
+    <File subtype="Code" buildaction="Compile" name="GUI-Schnistellen/Binaerdarstellungen.cs" />
+    <File subtype="Code" buildaction="Compile" name="GUI-Schnistellen/Zahlendarstellung.cs" />
+    <File subtype="Code" buildaction="Compile" name="Returnstack.cs" />
+    <File subtype="Code" buildaction="Compile" name="Binaerdarstellungen/BDInterface.cs" />
+    <File subtype="Directory" buildaction="Nothing" name="Zahlensystemparser" />
+    <File subtype="Directory" buildaction="Nothing" name="Binaerdarstellungen" />
+    <File subtype="Directory" buildaction="Nothing" name="GUI-Schnistellen" />
+    <File subtype="Directory" buildaction="Nothing" name="Berechnungen" />
+    <File subtype="Code" buildaction="Nothing" name="app.desktop" />
+  </Contents>
+  <References>
+    <ProjectReference specificVersion="False" type="Gac" localcopy="True" refto="System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <ProjectReference specificVersion="False" type="Gac" localcopy="True" refto="Mono.Posix, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756" />
+    <ProjectReference type="Gac" localcopy="True" refto="gtk-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <ProjectReference type="Gac" localcopy="True" refto="gdk-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <ProjectReference type="Gac" localcopy="True" refto="glib-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <ProjectReference type="Gac" localcopy="True" refto="glade-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <ProjectReference type="Gac" localcopy="True" refto="pango-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <ProjectReference type="Gac" localcopy="True" refto="atk-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+  </References>
+</Project>

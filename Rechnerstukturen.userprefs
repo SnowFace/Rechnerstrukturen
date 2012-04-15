@@ -1,0 +1,19 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Zahlenrepraesentation/Zahlensystemparser/Binaer.cs">
+    <Files>
+      <File FileName="GUI-Schnistellen/GUI.cs" Line="62" Column="82" />
+      <File FileName="Gleitkommaarithmetik/GKAGUIinterface.cs" Line="46" Column="29" />
+      <File FileName="Gleitkommaarithmetik/GKzahl.cs" Line="15" Column="8" />
+      <File FileName="Zahlenrepraesentation/Returnstack.cs" Line="1" Column="1" />
+      <File FileName="Exception/FormatException.cs" Line="1" Column="1" />
+      <File FileName="Binaer/Binaer.cs" Line="6" Column="22" />
+      <File FileName="Binaer/Dualoperationen.cs" Line="28" Column="3" />
+      <File FileName="Zahlenrepraesentation/Zahlensystemparser/Binaer.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
